@@ -1,0 +1,278 @@
+.aside{
+    position: relative;
+    padding-top: 25px;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.cardPokemon{
+    position: sticky;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(2px) saturate(100%);
+    -webkit-backdrop-filter: blur(2px) saturate(100%);
+    border-radius: 30px;
+    min-width: 310px;
+    width: 100%;
+    max-width: 500px;
+    gap: 10px;
+    /* max-height: 50rem; */
+}
+
+.red{
+    position: relative;
+    width: 100%;
+    height: 10rem;
+    background-color: rgba(255, 0, 0, 0.5);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.red .name{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+.red .id{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+.cardPokemon img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 170px;
+    padding: 10px;
+    border: 10px rgba(0, 0, 0, 0) solid;
+    border-radius: 50%;
+    position: absolute;
+    top: 5rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    overflow: visible;
+    box-shadow: 0 0 0 10px #000000da;
+    z-index: 2;
+    object-fit: contain;
+}
+.contenidoWhite{
+    display: flex;
+    flex-direction: column;
+    padding-top: 7.5rem;
+    width: 100%;
+    gap: 15px;
+}
+.caracteristicas{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+.types{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.white{
+    position: relative;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 100%;
+    min-height: 50vh;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.fire{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: orange;
+    border-radius: 10px;
+    color: rgb(161, 0, 0);
+    width: 60px;
+    text-align: center;
+}
+.water{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgb(0, 255, 255);
+    border-radius: 10px;
+    color: rgb(19, 0, 161);
+    width: 60px;
+    text-align: center;
+}
+.grass{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgb(159, 239, 73);
+    border-radius: 10px;
+    color: rgb(0, 67, 11);
+    width: 60px;
+    text-align: center;
+}
+.poison{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgb(239, 73, 225);
+    border-radius: 10px;
+    color: rgb(67, 0, 42);
+    width: 60px;
+    text-align: center;
+}
+.bug{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgb(185, 255, 110);
+    border-radius: 10px;
+    color: rgb(5, 194, 36);
+    width: 60px;
+    text-align: center;
+}
+.flying{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgb(165, 255, 232);
+    border-radius: 10px;
+    color: rgb(0, 48, 67);
+    width: 60px;
+    text-align: center;
+}
+.normal{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgb(120, 120, 120);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    width: 60px;
+    text-align: center;
+}
+.electric{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgb(241, 255, 83);
+    border-radius: 10px;
+    color: rgb(87, 90, 0);
+    width: 74px;
+    text-align: center;
+}
+.ground{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgb(168, 101, 57);
+    border-radius: 10px;
+    color: rgb(67, 34, 0);
+    width: 60px;
+    text-align: center;
+}
+.fairy{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgb(255, 187, 187);
+    border-radius: 10px;
+    color: rgb(96, 54, 54);
+    width: 60px;
+    text-align: center;
+}
+.fighting{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgba(255, 38, 38, 0.71);
+    border-radius: 10px;
+    color: rgb(65, 0, 0);
+    text-align: center;
+}
+.psychic{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgb(208, 99, 164);
+    border-radius: 10px;
+    color: rgb(49, 17, 50);
+    width: 65px;
+    text-align: center;
+}
+.steel{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgb(163, 163, 163);
+    border-radius: 10px;
+    color: rgb(40, 40, 40);
+    width: 60px;
+    text-align: center;
+}
+.ice{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgb(0, 177, 189);
+    border-radius: 10px;
+    color: rgb(15, 34, 40);
+    width: 60px;
+    text-align: center;
+}
+.ghost{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgba(191, 127, 166, 0.309);
+    border-radius: 10px;
+    color: rgba(138, 11, 110, 0.576);
+    width: 60px;
+    text-align: center;
+}
+.rock{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgb(129, 90, 72);
+    border-radius: 10px;
+    color: rgb(40, 29, 22);
+    width: 60px;
+    text-align: center;
+}
+.dragon{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgb(132, 255, 249);
+    border-radius: 10px;
+    color: rgb(217, 119, 70);
+    width: 60px;
+    text-align: center;
+}
+.dark{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgba(57, 57, 57, 0.782);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    width: 60px;
+    text-align: center;
+}
+
+
+.habilidad{
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.642);
+    border-radius: 10px;
+}
+
+.stats{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+}
+.statContainer{
+    background-color: rgba(255, 255, 255, 0.642);
+    border-radius: 10px;
+}
+.stat{
+    padding: 5px 10px;
+    background-color: rgba(237, 33, 33, 0.642);
+    border-radius: 10px;
+}

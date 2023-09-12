@@ -1,0 +1,26 @@
+.cardsContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 10px;
+}
+@media (max-width: 1440px){
+    .cardsContainer{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+@media (max-width: 1150px){
+    .cardsContainer{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (max-width: 950px){
+    .cardsContainer{
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+@media (max-width: 420px){
+    .cardsContainer{
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,26 @@
+main {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    gap: 10px;
+}
+
+@media (max-width: 750px){
+    main{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    section{
+        width: 100%;
+    }
+}
