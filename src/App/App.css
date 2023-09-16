@@ -10,6 +10,6 @@
 
 @media (max-width: 835px){
   .layout{
-    background-image: url('src/assets/bg/pxfuel.jpg');
+    background-image: url('../assets/bg/pxfuel.jpg');
   }
 }

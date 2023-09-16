@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer className='footer'>
             <div className="footerSup">
-                <img src="https://www.pngarts.com/files/3/Pokemon-Transparent-Images.png" alt="" />
+                <img src="src/assets/bg/imgFooter.png" alt="" />
                 <div className="contacto">
                     <div className="titulo">Contacto:</div>
                     <ul>

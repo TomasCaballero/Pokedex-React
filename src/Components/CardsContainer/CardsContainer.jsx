@@ -4,6 +4,8 @@ import Pokemon from '../Pokemon/Pokemon'
 
 
 const CardsContainer = ({pokemons, setPokemonAside}) => {
+
+
     return (
         <div className="cardsContainer">
             {

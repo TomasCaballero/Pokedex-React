@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 
 const Pokemon = ({ url, setPokemonAside }) => {
     const [info, setInfo] = useState('');
-    console.log(info)
+    // console.log(info)
 
     const verInfo = () => {
         setPokemonAside(info.name)
